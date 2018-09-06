@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'users/edit'
   get 'users/update'
   get 'users/destroy'
+
   get 'students/index'
   get 'students/show'
   get 'students/new'
@@ -24,7 +25,9 @@ Rails.application.routes.draw do
   get 'instructors/edit'
   get 'instructors/update'
   get 'instructors/destroy'
+
   get 'home/index'
+  
   get 'courses/index'
   get 'courses/show'
   get 'courses/new'
