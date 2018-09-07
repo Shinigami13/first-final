@@ -19,6 +19,7 @@ end
     @user = User.new(user_params)
     if @user.save
     redirect_to '/users'
+    #root_path
   end
 end
 
@@ -39,7 +40,7 @@ end
     if @user = User.destroy(user_params)
       redirect_to users_path
   else
-render ('new')  
+render ('new')
   end
   end
 
